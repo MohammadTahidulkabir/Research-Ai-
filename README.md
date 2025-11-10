@@ -228,7 +228,7 @@ ai-agent/
 
 ---
 
-## 🎓 Documentation
+##  Documentation
 
 | Document | Description |
 |----------|-------------|
@@ -239,7 +239,7 @@ ai-agent/
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -307,10 +307,10 @@ MIT License - See [LICENSE](LICENSE) file
 
 ##  Support
 
-- 📖 Read the [documentation](USAGE_GUIDE.md)
-- 🧪 Run `python test_agent.py`
-- 💬 Check error messages in console
-- 🔍 Review [troubleshooting guide](USAGE_GUIDE.md#troubleshooting)
+-  Read the [documentation](USAGE_GUIDE.md)
+-  Run `python test_agent.py`
+-  Check error messages in console
+-  Review [troubleshooting guide](USAGE_GUIDE.md#troubleshooting)
 
 ---
 
