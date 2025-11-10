@@ -153,7 +153,7 @@ Each report includes:
 
 ---
 
-## 🛠️ Configuration
+##  Configuration
 
 ### API Keys
 
