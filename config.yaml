@@ -1,0 +1,45 @@
+research_agent:
+  # API Settings
+  apis:
+    arxiv:
+      page_size: 100
+      delay_seconds: 3.0
+      num_retries: 3
+    groq:
+      api_key: "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"
+      model: "llama-3.3-70b-versatile"
+    openai:
+      api_key: "${OPENAI_API_KEY}"  # Set via environment variable
+      model: "gpt-4o"
+  
+  # Model Settings
+  models:
+    summarizer:
+      provider: groq
+      model: llama-3.3-70b-versatile
+      temperature: 0.3
+      max_tokens: 500
+    analyzer:
+      provider: groq
+      model: llama-3.3-70b-versatile
+      temperature: 0.5
+      max_tokens: 2000
+  
+  # Default Parameters
+  defaults:
+    max_papers: 15
+    days_back: 730  # 2 years
+    min_citations: 0
+    categories: ["cs.AI", "cs.LG", "cs.CL", "cs.CV"]
+  
+  # Storage
+  storage:
+    vector_db: "faiss"
+    embedding_model: "text-embedding-3-small"
+    persist_path: "./vector_stores"
+  
+  # Output
+  output:
+    format: "markdown"
+    include_charts: true
+    save_path: "./reports"
