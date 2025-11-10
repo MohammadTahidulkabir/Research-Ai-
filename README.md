@@ -1,4 +1,4 @@
-# 🔬 AI Research Agent v2.0
+#  AI Research Agent v2.0
 
 > **Autonomous academic research assistant powered by Groq + OpenAI**
 
@@ -9,26 +9,26 @@ An intelligent system that retrieves, analyzes, and synthesizes scientific liter
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🎯 Core Capabilities
+###  Core Capabilities
 
 | Feature | Description |
 |---------|-------------|
-| 📚 **Automated Retrieval** | Fetch papers from arXiv with advanced query syntax |
-| 🤖 **Dual-Model Analysis** | Fast summaries (Groq) + deep insights (GPT-4o) |
-| 🧠 **Gap Detection** | Identify research gaps and emerging trends |
-| 💡 **Project Generation** | Get 3-5 concrete research project ideas |
-| 💾 **Vector Storage** | Save sessions with semantic search (RAG) |
-| 📊 **Rich Reports** | Publication-ready markdown with citations |
-| 🔄 **Interactive Mode** | Advanced commands: compare, expand, query |
-| 📤 **Multiple Exports** | Markdown, BibTeX, JSON, LaTeX, PDF |
+|  **Automated Retrieval** | Fetch papers from arXiv with advanced query syntax |
+|  **Dual-Model Analysis** | Fast summaries (Groq) + deep insights (GPT-4o) |
+|  **Gap Detection** | Identify research gaps and emerging trends |
+|  **Project Generation** | Get 3-5 concrete research project ideas |
+|  **Vector Storage** | Save sessions with semantic search (RAG) |
+|  **Rich Reports** | Publication-ready markdown with citations |
+|  **Interactive Mode** | Advanced commands: compare, expand, query |
+|  **Multiple Exports** | Markdown, BibTeX, JSON, LaTeX, PDF |
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
-### 1️⃣ Installation (2 minutes)
+###  Installation (2 minutes)
 
 **Windows:**
 ```bash
@@ -47,7 +47,7 @@ cp .env.example .env
 # Add your OPENAI_API_KEY to .env
 ```
 
-### 2️⃣ Test Setup
+###  Test Setup
 
 ```bash
 python test_agent.py
@@ -55,7 +55,7 @@ python test_agent.py
 
 Expected: ✓ All tests pass (OpenAI optional)
 
-### 3️⃣ First Query (30 seconds)
+###  First Query (30 seconds)
 
 ```bash
 python research_agent.py "vision transformers" --max-papers 5 --no-deep-analysis
@@ -65,7 +65,7 @@ python research_agent.py "vision transformers" --max-papers 5 --no-deep-analysis
 
 ---
 
-## 📖 Usage Examples
+##  Usage Examples
 
 ### Basic Search
 ```bash
@@ -114,39 +114,39 @@ papers = summarizer.summarize_papers_fast(papers)
 
 ---
 
-## 📊 What You Get
+##  What You Get
 
 ### Comprehensive Research Reports
 
 Each report includes:
 
-1. **📄 Paper Summaries**
+1. ** Paper Summaries**
    - Key contributions
    - Methods used
    - Results and metrics
 
-2. **🧠 Cross-Paper Analysis**
+2. ** Cross-Paper Analysis**
    - Common approaches
    - Popular datasets
    - Evaluation metrics
 
-3. **🚨 Limitations & Gaps**
+3. ** Limitations & Gaps**
    - Recurring limitations
    - Underexplored areas
    - Missing combinations
 
-4. **🚀 Research Directions**
+4. ** Research Directions**
    - 3-5 concrete project ideas
    - Motivation and approach
    - Resource requirements
    - Timeline estimates
 
-5. **📈 Trend Analysis**
+5. ** Trend Analysis**
    - Publication timeline
    - Category distribution
    - Author networks
 
-6. **📚 Complete References**
+6. ** Complete References**
    - BibTeX-ready citations
    - arXiv links
    - Reproducibility notes
@@ -186,7 +186,7 @@ defaults:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ai-agent/
@@ -214,7 +214,7 @@ ai-agent/
 
 ---
 
-## 💰 Cost & Performance
+##  Cost & Performance
 
 ### Speed
 - **Fast mode**: ~30 seconds for 10 papers
@@ -268,17 +268,17 @@ python test_agent.py
 
 ---
 
-## 🌟 Use Cases
+##  Use Cases
 
-- **📚 Literature Reviews** - Comprehensive topic overviews
-- **🔍 Research Planning** - Find gaps and generate ideas
-- **📈 Stay Updated** - Track emerging trends monthly
-- **⚖️ Comparative Analysis** - Evaluate different approaches
-- **🎓 Teaching** - Create reading lists and presentations
+- ** Literature Reviews** - Comprehensive topic overviews
+- ** Research Planning** - Find gaps and generate ideas
+- ** Stay Updated** - Track emerging trends monthly
+- ** Comparative Analysis** - Evaluate different approaches
+- ** Teaching** - Create reading lists and presentations
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! See issues for planned features:
 - [ ] PubMed integration
@@ -289,13 +289,13 @@ Contributions welcome! See issues for planned features:
 
 ---
 
-## 📜 License
+##  License
 
 MIT License - See [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Credits
+##  Credits
 
 - **arXiv API** - Cornell University
 - **Groq** - Fast LLM inference
@@ -305,7 +305,7 @@ MIT License - See [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
+##  Support
 
 - 📖 Read the [documentation](USAGE_GUIDE.md)
 - 🧪 Run `python test_agent.py`
@@ -314,7 +314,7 @@ MIT License - See [LICENSE](LICENSE) file
 
 ---
 
-## 🎯 Quick Command Reference
+##  Quick Command Reference
 
 ```bash
 # Basic
